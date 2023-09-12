@@ -26,7 +26,7 @@ interface Data {
 function CalculatorSection() {
   const [data, setData] = useState(Array<Data>);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: unknown) => {
     e.preventDefault();
     const initialAmmount = Number(e.target.initialAmmount.value);
     const yearlyPercentage = Number(e.target.yearlyPercentage.value);

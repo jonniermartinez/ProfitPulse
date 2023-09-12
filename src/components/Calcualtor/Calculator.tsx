@@ -45,7 +45,7 @@ function calculator(
 
   for (let index = 1; index <= periodo; index++) {
     const initialBalance = lastBalance.toFixed(2);
-
+    console.log(aportacion);
     const t = index;
     const base = 1 + r / 100 / n;
     const finalValue = P * Math.pow(base, 1 * t);
