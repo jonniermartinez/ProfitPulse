@@ -77,7 +77,7 @@ export default function Hero() {
               </a>
               <a href="https://twitter.com/JonnierMartinez" target="_blank">
                 <Button size="lg" variant="outline">
-                  Follow me on twtter
+                  Follow me on twitter
                   <svg
                     className="w-5 h-5 ml-2 -mr-1"
                     width="100"
