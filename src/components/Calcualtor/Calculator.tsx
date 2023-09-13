@@ -43,7 +43,7 @@ function calculator(
   const n = 1;
   let lastBalance: number = capital;
 
-  for (let index = 1; index <= periodo; index++) {
+for (let index = 1; index <= periodo; index++) {
     const initialBalance = lastBalance.toFixed(2);
     console.log(aportacion);
     const t = index;
