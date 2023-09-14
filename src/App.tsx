@@ -1,6 +1,6 @@
 import Hero from "./components/Hero/Hero";
 import CalculatorSection from "./components/CalculatorSection/CalculatorSection";
-import WhatIsSection from "./components/WhatIsSection/WhatIsSection";
+// import WhatIsSection from "./components/WhatIsSection/WhatIsSection";
 
 function App() {
   return (
