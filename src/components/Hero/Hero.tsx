@@ -48,8 +48,32 @@ export default function Hero() {
         </header>
         <section>
           {/* latest relace */}
-          {/* <p className="text-center">hola mundo</p> */}
-          <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 h-screen max-h-[600px]">
+          <div className="z-10 flex h-full w-full flex-col items-center justify-center">
+            <a
+              className="relative flex flex-row items-center justify-center rounded-2xl px-4 py-1.5 text-sm font-medium shadow-[inset_0_-8px_10px_#8fdfff1f] transition-shadow duration-500 ease-out hover:shadow-[inset_0_-5px_10px_#8fdfff3f]"
+              href="https://twitter.com/JonnierMartinez"
+              target="_blank"
+            >
+              <svg
+                className="w-4 h-4 ml-2 -mr-1"
+                width="100"
+                height="100"
+                viewBox="0 0 30 30"
+              >
+                <path d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z"></path>
+              </svg>{" "}
+              <div
+                data-orientation="vertical"
+                role="none"
+                className="shrink-0 bg-border w-[1px] mx-2 h-4"
+              ></div>{" "}
+              <span className="animate-gradient bg-gradient-to-r  inline">
+                Follow me on twitter
+              </span>
+              <div className="absolute inset-0 block h-full w-full animate-gradient bg-gradient-to-r from-[#ffaa40]/50 via-[#9c40ff]/50 to-[#ffaa40]/50 bg-[length:var(--bg-size)_100%] p-[1px] [border-radius:inherit] [mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] [--webkit-mask-composite:xor] [mask-composite:xor]"></div>
+            </a>
+          </div>
+          <div className="py-8 flex flex-col gap-6 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 h-screen max-h-[600px]">
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
               Calculate Your Earnings with Our Compound Interest Calculator
             </h1>
@@ -75,22 +99,9 @@ export default function Hero() {
                   </svg>
                 </Button>
               </a>
-              <a href="https://twitter.com/JonnierMartinez" target="_blank">
-                <Button size="lg" variant="outline">
-                  Follow me on twitter
-                  <svg
-                    className="w-5 h-5 ml-2 -mr-1"
-                    width="100"
-                    height="100"
-                    viewBox="0 0 30 30"
-                  >
-                    <path d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z"></path>
-                  </svg>
-                </Button>
-              </a>
             </div>
             {/* Feature in */}
-            <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
+            {/* <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
               <span className="font-semibold text-gray-400 uppercase">
                 Publish on
               </span>
@@ -121,7 +132,7 @@ export default function Hero() {
                   </svg>
                 </a>
               </div>
-            </div>{" "}
+            </div>{" "} */}
           </div>
         </section>
       </div>

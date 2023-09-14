@@ -74,14 +74,14 @@ function CalculatorSection() {
               ></Question> */}
               <Question
                 placeholder="12"
-                label="Yearly Percentage"
+                label="Percentage"
                 name="yearlyPercentage"
                 simbol="%"
                 infoHelp={false}
               ></Question>
               <Question
                 placeholder="15"
-                label="Number of years"
+                label="Number of repetitions"
                 name="years"
                 infoHelp={false}
               ></Question>
