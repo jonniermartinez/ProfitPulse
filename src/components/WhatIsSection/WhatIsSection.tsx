@@ -1,11 +1,14 @@
 function WhatIsSection() {
   return (
-    <section className="mx-auto max-w-screen-xl text-center min-h-screen" id="">
+    <section
+      className="mx-auto max-w-screen-xl text-start min-h-screen mb-44"
+      id=""
+    >
       <div className="max-w-4xl mx-auto">
-        <h2 className="scroll-m-20 pb-2 text-4xl font-bold tracking-tight transition-colors first:mt-0">
+        <h2 className="scroll-m-20 text-4xl font-bold tracking-tight transition-colors first:mt-0">
           What is Compound Interest
         </h2>
-        <p className="leading-7 max-w-3xl text-gray-500  mx-auto [&:not(:first-child)]:mt-6">
+        <p className="leading-7 max-w-3xl text-gray-500 [&:not(:first-child)]:mt-6">
           Compound interest is a financial concept used in economics and finance
           to calculate the growth of an investment or debt over time. Instead of
           calculating interest only on the initial capital, as in simple
@@ -13,7 +16,10 @@ function WhatIsSection() {
           capital and previously accrued interest. This leads to exponential
           growth in the investment or debt over time.
         </p>
-        <p>
+        <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight [&:not(:first-child)]:mt-6">
+          Example
+        </h3>
+        <p className="leading-7 max-w-3xl text-gray-500 [&:not(:first-child)]:mt-6">
           Let's say you have $1,000, and you invest it in a savings account that
           pays an annual interest rate of 5%. At the end of the first year, you
           will earn $50 in interest (1,000 * 0.05). You will now have $1,050 in
@@ -24,12 +30,10 @@ function WhatIsSection() {
           end of the second year. Compound interest causes your investment to
           grow faster over time.
         </p>
-      </div>
-      <div className="max-w-4xl mx-auto">
-        <h2 className="scroll-m-20 pb-2 text-4xl font-bold tracking-tight transition-colors first:mt-0">
+        <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight [&:not(:first-child)]:mt-6">
           Compound Interest on the Biology
-        </h2>
-        <p className="leading-7 max-w-3xl text-gray-500  mx-auto [&:not(:first-child)]:mt-6">
+        </h3>
+        <p className="leading-7 max-w-3xl text-gray-500 [&:not(:first-child)]:mt-6">
           Compound interest can also be applied to population growth in biology.
           For example, if you have a population of bacteria that doubles every
           hour, the number of bacteria will increase exponentially over time. If
@@ -38,12 +42,10 @@ function WhatIsSection() {
           bacteria includes the bacteria from the previous generation, leading
           to exponential growth.
         </p>
-      </div>
-      <div className="max-w-4xl mx-auto">
-        <h2 className="scroll-m-20 pb-2 text-4xl font-bold tracking-tight transition-colors first:mt-0">
-          Compound Interest Curiosity
-        </h2>
-        <p className="leading-7 max-w-3xl text-gray-500  mx-auto [&:not(:first-child)]:mt-6">
+        <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight [&:not(:first-child)]:mt-6">
+          Curiosity
+        </h3>
+        <p className="leading-7 max-w-3xl text-gray-500 [&:not(:first-child)]:mt-6">
           A curious example of compound interest is found in the legend of
           chess. It is said that the inventor of chess presented the game to an
           Indian emperor as a gift. The emperor was so impressed that he offered
