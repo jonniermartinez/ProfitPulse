@@ -64,26 +64,20 @@ function CalculatorSection() {
                 label="Initial ammount"
                 name="initialAmmount"
                 simbol="$"
-                infoHelp={false}
+                info="Amount of money you initially put into an investment or the amount you borrow from a lender."
               />
-              {/* <Question
-                label="Annual Contribution"
-                name="annualContribution"
-                infoHelp={false}
-                simbol="$"
-              ></Question> */}
               <Question
                 placeholder="12"
                 label="Percentage"
                 name="yearlyPercentage"
                 simbol="%"
-                infoHelp={false}
+                info="Rate at which your initial amount of money (principal) will grow or accumulate over time."
               ></Question>
               <Question
                 placeholder="15"
                 label="Number of repetitions"
                 name="years"
-                infoHelp={false}
+                info="Represents the duration for which you want to calculate the compound interest. It is usually expressed in years, but you can also use fractions of a year (e.g., half a year, three months, etc.)."
               ></Question>
               <Button className="">Calculate</Button>
             </div>
